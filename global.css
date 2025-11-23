@@ -81,7 +81,8 @@ select {
 :root {
 	/* Modular Scale - Every Layout */
 	--ratio: 1.5;
-	--s0: 0.85rem;
+	--s0: 1rem; /* 16px */
+	--s-05: calc((var(--s0) / var(--ratio))*1.25); /* 13.7px */
 	--s-1: calc(var(--s0) / var(--ratio)); /* 10.7px */
 	--s-2: calc(var(--s-1) / var(--ratio)); /* 7.1px  */
 	--s-3: calc(var(--s-2) / var(--ratio)); /* 4.75px */
@@ -94,6 +95,7 @@ select {
 	--s3: calc(var(--s2) * var(--ratio)); /* 54px */
 	--s4: calc(var(--s3) * var(--ratio)); /* 81px  */
 	--s5: calc(var(--s4) * var(--ratio)); /* 121px */
+	--s6: calc(var(--s5) * var(--ratio)); /* 181px *
 
 	/* Measure - prefered line lenghth   */
 	--measure: 190ch;

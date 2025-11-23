@@ -3,12 +3,12 @@
 
 header {
   padding: 1em;
-  background-color: var(--clr-primary-400);
+  /* background-color: var(--clr-primary-400); */
   width: 90%;
   margin-top: var(--s0);
   border: solid 2px var(--clr-accent-300);
   border-radius: 20px;
-  box-shadow: 8px 8px 8px var(--clr-neutral-900);
+  /* box-shadow: 8px 8px 8px var(--clr-neutral-900); */
 
 
   background-image: url("/images/PanoAurora.jpg"); /* The image used */
@@ -43,10 +43,10 @@ main {
 
 footer {
   margin-top: auto;
-  width: 95%;
+  width: 90%;
   
   /* Footer height */
-  background-color: var(--clr-primary-400);
+  /* background-color: var(--clr-primary-400); */
   padding-top: 1em;
   margin-bottom: var(--s0);
   border: solid 2px var(--clr-accent-300);
@@ -54,7 +54,7 @@ footer {
 
 
   background-image: url("/images/PanoAurora.jpg"); /* The image used */
-  background-color: #cccccc; /* Used if the image is unavailable */
+  background-color: var(--clr-neutral-100); /* Used if the image is unavailable */
   height: 7.5rem; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -62,8 +62,9 @@ footer {
 }
 /* add copyright to all post footers including template */
 .copyright {
-  font-size: var(--s0);
+  font-size: var(--s05);
   font-style:oblique;
+  color: var(--clr-neutral-100);
 }
 
 section {
@@ -119,7 +120,7 @@ button {
   background-color: var(--clr-accent-300);
   
   /* add shodow to all buttons */
-  box-shadow: 5px 5px 5px var(--clr-accent-300);
+  box-shadow: 3px 3px 3px var(--clr-primary-500);
 
   color: var(--clr-primary-500);
   padding: 14px 25px;
@@ -131,16 +132,16 @@ button {
 
 /*  add visual effect to active button */
 button:hover {
-  background-color: var(--clr-neutral-900);
+  /* background-color: var(--clr-neutral-900); */
   color: var(--clr-neutral-100);
-  font-size:18px;
+  font-size:var(--s05);
 }
 
 /* *************** Post CSS ********************* */
 .post-wrapper {
   max-width: 80%;
   margin: auto;
-  margin-top: var(--s0);
+  margin-top: var(--s1);
 
 }
 
